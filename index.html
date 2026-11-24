@@ -34,20 +34,38 @@
     font-size:16px;
     cursos:pointer;
   }
-</style>
+ </style>
+    
 </head>
 <body>
   <h1>MEU SISTEMA RURAL</h1>
+  
   <div class="caixa">
   <h2>Controle da Fazenda</h2>
+    
   <p>Bem vindo ao meu sistema.</p>
+    
   <p>Aqui vamos controlar despesas, receitas e atividades</p>
-  <button class="botão">Clique aqui</button>
+    
+  <button class="botão"
+onclick="mostrarMensagem()">
+    Clique aqui
+  </button>
+
+    <p id="mensagem"></p>
   </div>
+  
   <div class="caixa">
     <h2>Área de lançamentos</h2>
+    
     <p>Em breve teremos um formulário para registrar dados.</p>
     <button class="botão">Novo lançamento</button>
   </div>
+
+  <script>
+    function mostrarMensagem(){
+document.getElementByld("mensagem").innerText="Parabén! Você executou seu primeiro código JavaScript!";
+    }
+  </script>
 </body>
 </html>
