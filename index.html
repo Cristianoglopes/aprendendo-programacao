@@ -1,71 +1,67 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>MEU SISTEMA RURAL</title>
-  
-  <style>
-  body{
-    backgroud-color: #f1f5f1;
-    font-family: Arial, sans-serif;
-  }
-    
-  h1{
-    color: #245c35;
-  }
-    
-  h2{
-    color: #387548;
-  }
-    
-  p{
-    color: #333333;
-  }
-    
-  .caixa{
-    backgroud-color: white;
-    padding: 20px;
-    margin-bottom: 20px;
-    border: 1px solid #cccccc;
-    border-radius: 10px;
-  }
-    
-  .botao{
-    backgroud-color: #245c35;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    cursos: pointer;
-  }
- </style>
-</head>
-  
-<body>
-  <h1>MEU SISTEMA RURAL</h1>
-  
-  <div class="caixa">
-    <h2>Controle da Fazenda</h2>
-    
-    <p>Bem vindo ao meu sistema.</p>
-    
-    <p>Aqui vamos controlar despesas, receitas e atividades</p>
-    
-  <button class="botao"
-onclick="document.getElementByld('mensagem').innerText='Parabéns! Você executou seu primeiro código JavaScript!'">
-    Clique aqui
-  </button>
+    <meta charset="UTF-8">
+    <title>Meu Sistema Rural</title>
 
-    <p id="mensagem"></p>
-  </div>
-  
-  <div class="caixa">
-    <h2>Área de lançamentos</h2>
-    
-    <p>Em breve teremos um formulário para registrar dados.</p>
-    <button class="botao">Novo lançamento</button>
-  </div>
+    <style>
+        body {
+            background-color: #f1f5f1;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #245c35;
+        }
+
+        h2 {
+            color: #387548;
+        }
+
+        .caixa {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #cccccc;
+            border-radius: 10px;
+        }
+
+        .botao {
+            background-color: #245c35;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Meu Sistema Rural</h1>
+
+    <div class="caixa">
+        <h2>Controle da Fazenda</h2>
+
+        <p>Bem-vindo ao meu sistema.</p>
+
+        <button class="botao" onclick="document.getElementById('mensagem').innerText='Funcionou! Nosso primeiro JavaScript está funcionando!'">
+            Clique aqui
+        </button>
+
+        <p id="mensagem"></p>
+    </div>
+
+    <div class="caixa">
+        <h2>Área de lançamentos</h2>
+
+        <p>Em breve teremos um formulário para registrar dados.</p>
+
+        <button class="botao">Novo lançamento</button>
+    </div>
 
 </body>
 </html>
