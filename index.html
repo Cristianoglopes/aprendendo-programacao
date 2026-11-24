@@ -20,7 +20,7 @@
         }
 
         .caixa {
-            background-color: brown;
+            background-color: white;
             padding: 20px;
             margin-bottom: 20px;
             border: 1px solid #cccccc;
@@ -48,7 +48,8 @@
 
         <p>Bem-vindo ao meu sistema.</p>
 
-        <button class="botao" onclick="document.getElementById('mensagem').innerText='Funcionou! Nosso primeiro JavaScript está funcionando!'">
+        <button class="botao" 
+    onclick="mostrarMensagem()">
             Clique aqui
         </button>
 
@@ -62,6 +63,12 @@
 
         <button class="botao">Novo lançamento</button>
     </div>
+
+    <script>
+        function mostrarMensagem(){
+document.getElementById("mensagem").innerText = "Funcionou! Aprendi a criar uma função!";
+        }
+    </script>
 
 </body>
 </html>
